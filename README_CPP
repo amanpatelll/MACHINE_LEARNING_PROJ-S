@@ -1,9 +1,11 @@
 # MACHINE_LEARNING_PROJ-S
+
 CAR-PRICE-PREDICTION MODEL 
 LINEAR & LASSO REGRESSION 
 
 The car_Price_Prediction project uses a machine learning model that is generated using linear regression and lasso regression . 
-The dataset is obtained from kaggle . 
+The dataset is obtained from kaggle .
+
 Packages such as -
 1. nunmpy - was used to perform feature scaling ( optional )
 2. pandas - was used to call the car_data.csv file and perform operations on it .
@@ -11,8 +13,10 @@ Packages such as -
 4. seaborn - used for the same function as matplotlib
 5. sklearn - The most important and the most used package . It has all the modules like LinearRegression , Lasoo , Metrics and also train_test_split . 
 were used .
+
 'Selling_price' column was taken as the predicted values and was named as Y .
 The remaining dataframe ( Car_Name and the Selling_price removed ) was named X . ( The car_name column was removed since it had no impact on the selling price )
+
  - 'train_test_split' module was used to directly generate 2 sets of data . One was named Train and the other was named Test . 
 Train_set was used to train the linear regression model , while the other was used to test it . 
 
@@ -21,9 +25,11 @@ One must know how gradient descent algorithm works and must know how to use the 
 
 We can check to how much extent the predicted values are correct by using metrics .
 Metrics has different methods to calculate error ( mean_squared_error , mean_squared_error_log , r2_score and etc ) . In this case we've used r2_score .
+
 Then use matplotlib to plot the graph between predicted values and the actual values , if the best fit line of teh grwaph is somewhat close to the x=y line then the model works good enough . 
 
 You can do this same prediction by using lasso regresion model instead of linear regression .
 
 PERFORM all these operations on the test set as well and plot their graphs too .
+
 LINK OF THE COLAB - https://colab.research.google.com/drive/1zS573eH20yE2Lyjhi4badGakp6cDYCHL?usp=sharing
