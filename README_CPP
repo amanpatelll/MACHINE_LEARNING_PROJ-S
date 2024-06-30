@@ -26,3 +26,4 @@ Then use matplotlib to plot the graph between predicted values and the actual va
 You can do this same prediction by using lasso regresion model instead of linear regression .
 
 PERFORM all these operations on the test set as well and plot their graphs too .
+LINK OF THE COLAB - https://colab.research.google.com/drive/1zS573eH20yE2Lyjhi4badGakp6cDYCHL?usp=sharing
