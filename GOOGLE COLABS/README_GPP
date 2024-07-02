@@ -1,0 +1,33 @@
+# MACHINE_LEARNING_PROJ-S
+
+GOLD-PRICE-PREDICTION MODEL 
+RANDOM_FOREST_REGRESSOR
+
+AMAN PATEL 
+
+
+This is a linear regression machine learning project as well . The dataset is obtained from kaggle only .
+The csv file of the data is also given in the file as well .
+
+Pandas are used to get access to the dataset and performing functions on it . 
+Feature scaling an done hot encoding was not necessary for this project since there were not any continuous values in the df .
+
+'Date' column was dropped since it did not matter or had any effect on the gold price prediction .
+
+In which there are 6 features and 2290 examples in the gld_price dataset .
+
+In the car_price prediction project we used LinerRegression module from sklearn to directly predict the values , wheraes in this case we used RandomForestRegressor from sklearn .
+
+RandomForestRegressor uses multiple decision trees to calculate the prediced price of the gold using the given freatures .
+
+Using the ususal procedure , we generated train and test dataset using the given dataset and split the sets into X and Y arrays . X being the features that will be used to generate the values and Y being the actual values of the gold_price . 
+Packages such as matplotlib and seaborn are imported to plot the graphs so it is easier to compare the actual price and the predicted price .
+
+Correlation between the categories is calculated using df.corr() # this is new 
+# more information on this is given in the google colab file in comments 
+
+While calling the RandomForestRegressor module a parameter calles n_estimators is used , this specifies the number of trees in the forest of the model .
+
+Everything about how the RandomForestRegressor was called , used and how it predicted the values is explained in the colab in comments ( look there ) .
+
+Google Colab link - https://colab.research.google.com/drive/1xdtYTklqZL3CcEgfK5knF15naeP99EeP#scrollTo=ngEiMjncjM6t
