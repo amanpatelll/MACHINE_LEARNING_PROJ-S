@@ -1,3 +1,10 @@
+# MACHINE_LEARNING_PROJ-S
+
+MAXIMUM-RETAIL-PRICE-PREDICTION MODEL 
+XGBOOST_REGRESSOR
+
+AMAN PATEL 
+
 This is also a linear regression project but instead of using LinearRegression or Randomforestregressor module from sklearn , XGBoostRegressor is used .
 Initially , the target was to predict values of the output_sales but the csv file did not have the mentioned column so , adjustments were made and the MRP of the item was predicted .
 XGBoost is a machine learning algorithm that belongs to the ensemble learning category . 
